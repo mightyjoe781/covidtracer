@@ -36,7 +36,7 @@ app.get('*', (req, res) => {
 // Server Parameter
 
 const hostname = '127.0.0.1'
-const port = 3000
+const port = 3033
 app.listen(port,hostname, () => {
   console.log(`Server started at http://${hostname}:${port}`)
   console.log('  Press CTRL+c to stop!')
