@@ -100,7 +100,7 @@ var ui = H.ui.UI.createDefault(map, defaultLayers,'en-US');
                 var browserPosition = {lat: position.coords.latitude , lng: position.coords.longitude };
 
                 // Create a marker:
-                var icon = new H.map.Icon('./beta_icons/icons8-standing-man-48.png');
+                var icon = new H.map.Icon('icons8-standing-man-48.png');
                 let marker = new H.map.Marker(browserPosition, {icon: icon});
 
                 // Instantiate a circle object (using the default style):
