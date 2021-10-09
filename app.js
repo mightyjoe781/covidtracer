@@ -17,11 +17,15 @@ app.use(bodyParser.urlencoded({extended:true}));
 //--------------------------------------------------------------------
 // Routes
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.render('landing.ejs')
 })
 
 app.get('/map', (req, res) => {
   res.render('map.ejs')
+})
+
+app.get('/contact', (req, res) => {
+  res.render('contact.ejs')
 })
 
 app.get('*', (req, res) => {
