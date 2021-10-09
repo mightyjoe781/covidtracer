@@ -24,6 +24,10 @@ app.get('/map', (req, res) => {
   res.render('map.ejs')
 })
 
+app.get('/login', (req, res) => {
+  res.render('login.ejs')
+})
+
 app.get('/contact', (req, res) => {
   res.render('contact.ejs')
 })
